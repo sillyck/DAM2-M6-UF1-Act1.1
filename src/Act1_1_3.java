@@ -33,7 +33,7 @@ public class Act1_1_3 {
 		
 		long bytes = ruta.length();
 		
-		System.out.println(String.format("%,d kilobytes", bytes));
+		System.out.println(String.format("%,d bytes", bytes));
 		
 		if(ruta.isDirectory()) {
 			System.out.println("Es un directori");
